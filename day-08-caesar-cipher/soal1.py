@@ -1,7 +1,11 @@
 kata = "HELLO"
-
 geseran = 5
+hasil = ""
+
 
 for huruf in kata:
-    huruf_baru = ord(huruf) + ord (geseran) 
-    print(huruf)
+    posisi = ord(kata) + ord(A)
+    
+
+
+print(hasil)

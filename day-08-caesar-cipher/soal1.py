@@ -27,3 +27,20 @@ print(hasil)
 # ini di LUAR loop (perhatikan tidak ada indentasi/spasi di depan)
 # jadi baru jalan SETELAH semua huruf selesai diproses,
 # nge-print hasil akhirnya yang sudah lengkap
+
+kata = "HELLO WORLD"      
+geseran = 5         
+hasil = " "          
+
+for huruf in kata:
+
+    if huruf == ' ':
+        hasil = hasil + huruf
+    else:
+        # kalau bukan spasi, jalankan proses geser seperti biasa
+        posisi = ord(huruf) - ord('a')
+        posisi_baru = (posisi + geseran) % 26
+        huruf_baru = chr(posisi_baru + ord('a'))
+        hasil = hasil + huruf_baru
+
+print(hasil)

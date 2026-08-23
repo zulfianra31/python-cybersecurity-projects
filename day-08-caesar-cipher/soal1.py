@@ -44,3 +44,7 @@ for huruf in kata:
         hasil = hasil + huruf_baru
 
 print(hasil)
+
+print('A'.isupper())
+print('a'.isupper())
+print('A'.islower())

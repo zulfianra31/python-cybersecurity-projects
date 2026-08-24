@@ -47,3 +47,9 @@ for huruf in kata:
 print(hasil)
 # ini di LUAR loop (tidak ada indentasi di depan)
 # jadi baru nge-print SETELAH semua huruf di `kata` selesai diproses satu-satu
+
+print('a'.isalpha())
+print('A'.isalpha())
+print(','.isalpha())
+print(' '.isalpha())
+print('5'.isalpha())

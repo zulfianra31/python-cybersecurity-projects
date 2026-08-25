@@ -53,3 +53,8 @@ print('A'.isalpha())
 print(','.isalpha())
 print(' '.isalpha())
 print('5'.isalpha())
+
+print(not True)
+print(not False)
+print(not 'a'.isalpha())
+print(not ','.isalpha())

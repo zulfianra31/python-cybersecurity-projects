@@ -1,7 +1,7 @@
 def geser_teks(kata, geseran):
     hasil = ""
     for huruf in kata:
-        if huruf == ' ':
+        if not huruf.isalpha():
             hasil = hasil + huruf
         elif huruf.islower():
             posisi = ord(huruf) - ord('a')

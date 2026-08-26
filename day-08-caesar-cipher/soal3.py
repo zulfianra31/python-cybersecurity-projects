@@ -8,11 +8,6 @@ def geser_teks(kata, geseran):
             posisi_baru = (posisi + geseran) % 26
             huruf_baru = chr(posisi_baru + ord('a'))
             hasil = hasil + huruf_baru
-        elif huruf.isalpha():
-            posisi = ord(huruf) - ord('a')
-            posisi_baru = (posisi + geseran) % 26
-            huruf_baru = chr(posisi_baru + ord('a'))
-            hasil = hasil + huruf_baru
         else:
             posisi = ord(huruf) - ord('A')
             posisi_baru = (posisi + geseran) % 26

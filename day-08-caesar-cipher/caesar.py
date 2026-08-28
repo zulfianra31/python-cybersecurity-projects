@@ -33,3 +33,4 @@ posisi_baru = (posisi + geseran) % 26
 huruf_baru = chr(posisi_baru + ord('A'))
 
 print(huruf_baru)
+

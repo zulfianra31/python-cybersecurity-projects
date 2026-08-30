@@ -1,4 +1,7 @@
-
 password = input("Masukkan password: ")
 panjang = len(password)
-print("Panjang password:", panjang)
+
+if panjang >= 8:
+    print("Panjang: OK")
+else:
+    print("Panjang: Terlalu pendek")

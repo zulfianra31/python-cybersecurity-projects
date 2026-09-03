@@ -19,3 +19,8 @@ print("Panjang cukup:", panjang_cukup)
 print("Ada huruf besar:", ada_huruf_besar)
 print("Ada huruf kecil:", ada_huruf_kecil)
 print("Ada angka:", ada_angka)
+
+print('a'.isalnum())
+print('5'.isalnum())
+print('!'.isalnum())
+print('@'.isalnum())

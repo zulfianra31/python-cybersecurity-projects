@@ -8,3 +8,6 @@ hasil = s.connect_ex((target, port))
 
 print(hasil)
 s.close()
+
+for angka in range(1, 5):
+    print(angka)

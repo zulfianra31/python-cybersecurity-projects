@@ -16,4 +16,5 @@ with open(r"E:\all project\project 2 (cyber)\Day 11-Log File Analyzer\sample.log
 
 baris = "22026-09-08 08:14:25 LOGIN_FAILED user=admin ip=203.0.113.55"
 potongan = baris.split("ip=")
-print(potongan)
+ip = potongan[1]
+print(ip)

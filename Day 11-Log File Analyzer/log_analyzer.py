@@ -14,7 +14,9 @@ with open(r"E:\all project\project 2 (cyber)\Day 11-Log File Analyzer\sample.log
 #         print(baris)
 
 
-baris = "22026-09-08 08:14:25 LOGIN_FAILED user=admin ip=203.0.113.55"
-potongan = baris.split("ip=")
-ip = potongan[1]
-print(ip)
+
+for baris in baris_baris:
+    if "LOGIN_FAILED" in baris:
+        potongan = baris.split("ip=")
+        ip = potongan[1]
+        print(repr(ip))

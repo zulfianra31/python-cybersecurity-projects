@@ -19,4 +19,5 @@ for baris in baris_baris:
     if "LOGIN_FAILED" in baris:
         potongan = baris.split("ip=")
         ip = potongan[1]
+        ip = ip.strip()
         print(repr(ip))

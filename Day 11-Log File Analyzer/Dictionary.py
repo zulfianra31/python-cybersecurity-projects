@@ -11,3 +11,13 @@ print(catatan)
 catatan = {"203.0.113.55": 2}
 print("203.0.113.55" in catatan)
 print("9.9.9.9" in catatan)
+
+catatan = {}
+ip = "9.9.9.9"
+
+if ip in catatan:
+    catatan[ip] = catatan[ip] + 1
+else:
+    catatan[ip] = 1
+
+print(catatan)

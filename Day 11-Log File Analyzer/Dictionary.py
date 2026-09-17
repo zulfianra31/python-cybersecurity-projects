@@ -15,6 +15,15 @@ print("9.9.9.9" in catatan)
 catatan = {}
 ip = "9.9.9.9"
 
+# kemunculan IP yang PERTAMA
+if ip in catatan:
+    catatan[ip] = catatan[ip] + 1
+else:
+    catatan[ip] = 1
+
+print(catatan)
+
+# kemunculan IP yang KeDUA
 if ip in catatan:
     catatan[ip] = catatan[ip] + 1
 else:

@@ -15,3 +15,6 @@ for baris in baris_baris:
             catatan[ip] = 1
 
 print(catatan)
+
+for ip, jumlah in catatan.items():
+    print(ip, jumlah)

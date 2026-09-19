@@ -16,5 +16,5 @@ for baris in baris_baris:
 
 print(catatan)
 
-for ip, jumlah in catatan.items():
-    print(ip, jumlah)
+for a, b in catatan.items():
+    print("IP:", a, "-> Gagal login:", b)

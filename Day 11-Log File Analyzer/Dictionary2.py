@@ -18,3 +18,9 @@ print(catatan)
 
 for a, b in catatan.items():
     print("IP:", a, "-> Gagal login:", b)
+
+for ip, jumlah in catatan.items():
+    if jumlah >= 5:
+        print("⚠️  MENCURIGAKAN:", ip, "-", jumlah, "kali gagal login")
+    else:
+        print("Normal:", ip, "-", jumlah, "kali gagal login")

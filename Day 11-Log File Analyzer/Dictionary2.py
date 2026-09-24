@@ -83,3 +83,4 @@ for ip, jumlah in catatan.items():
     else:
         # KALAU kurang dari 5 -> dianggap wajar/normal
         print("Normal:", ip, "-", jumlah, "kali gagal login")
+

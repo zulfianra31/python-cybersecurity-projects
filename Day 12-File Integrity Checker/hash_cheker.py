@@ -16,6 +16,6 @@ hash_baru = hitung_hash(path)
 print("Hash baru:", hash_baru)
 
 if hash_awal == hash_baru:
-    print(____________)
+    print("Integritas file terjaga.")
 else:
-    print(____________)
+    print("Integritas file telah berubah.")
